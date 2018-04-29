@@ -28,7 +28,7 @@ public class RainbowBoxFunction {
 
     }
     public static void squareDrawing(Graphics g, int size, Color color) {
-        g.fillRect(WIDTH/2-size/2, HEIGHT/2-size/2, size, size);
+        g.drawRect(WIDTH/2-size/2, HEIGHT/2-size/2, size, size);
     }
 
     // Don't touch the code below
