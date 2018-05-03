@@ -16,9 +16,7 @@ public class WriteSingleLine {
 
         List<String> content = new ArrayList();
         content.add("Krisztina Németh");
-        try { // Required by Files.write(filePath, content)
-            // Creates a new file if not exists and overwrites it's content
-            // The elements of the content lists will become the lines of the file
+        try { 
             Path filePath = Paths.get("my-file.txt");
             Files.write(filePath, content);
 
