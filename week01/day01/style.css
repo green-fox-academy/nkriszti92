@@ -1,4 +1,66 @@
-#codegirl
-{
-    color:#ff0099
-};
+body{
+font-family: 'Roboto Slab', serif;
+}
+
+p, h3, h2, h1{
+padding: 0px 100px 0px 100px;
+text-align: justify;
+}
+
+#name{
+padding: 100px 100px 0px 100px;
+}
+
+#dots{
+text-align: center;
+font-size: 20px;
+}
+
+#wiki{
+text-align: center;
+}
+
+#codegirl{
+color: #ff0099;
+} 
+
+ul{
+background-color: #000000;  
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #000000;
+}
+
+li{
+float: right;
+}
+
+li a{
+display: block;    
+color: #ff0099;
+align-content: center;
+padding: 14px;
+text-decoration-line: underline;
+padding-top: 28px;
+padding-bottom: 18px;
+}
+
+#lasthref{
+padding-right: 100px;
+}
+
+#image{
+padding-left: 100px;
+padding-top: 18px;
+padding-bottom: 18px;
+float: left;
+}
+
+li a:hover{
+color: white;
+}
