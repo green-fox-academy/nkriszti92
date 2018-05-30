@@ -1,6 +1,6 @@
 package week03.day02;
 
-public class Printer {
+public class PrintParams {
     //  Create the usual class wrapper
 //  and main method on your own.
 
@@ -14,6 +14,13 @@ public class Printer {
 // printer("first", "second", "third", "fourh")
 // ...
 
+    public static void main(String[] args) {
+        printer("first", "second", "third", "fourth", "etcetera");
+    }
 
-
+    public static void printer(String... strings) {
+        for (String s : strings) {
+            System.out.print("\"" + s + "\" ");
+        }
+    }
 }
