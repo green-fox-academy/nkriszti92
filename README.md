@@ -1,7 +1,7 @@
 ﻿# Németh Krisztina
 
 P2P-Chat:
-*https://github.com/nkriszti92/p2p-chat
+* https://github.com/nkriszti92/p2p-chat
 
 Other repositories:
 
